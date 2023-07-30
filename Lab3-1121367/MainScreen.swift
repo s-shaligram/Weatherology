@@ -390,7 +390,7 @@ class MainScreen: UIViewController, UITextFieldDelegate, CLLocationManagerDelega
         
         let baseURL = "https://api.weatherapi.com/v1/"
         let currentEndpoint = "current.json"
-        let apiKey = "1bd7fc3e9f134e7986711555223210"
+        let apiKey = ""
 //        1bd7fc3e9f134e79867115552232104
         // query = "q=Toronto"
         guard let url = "\(baseURL)\(currentEndpoint)?key=\(apiKey)&q=\(query)"
